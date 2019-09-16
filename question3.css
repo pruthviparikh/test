@@ -1,0 +1,29 @@
+
+
+div{
+ width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+}
+
+.rotate{
+
+position: absolute;
+top: 48px;
+left: 180px;
+margin:55px;
+padding: 10px;
+transition-timing-function: ease-in-out;
+transition: width 1s, height 1s, transform 1s;
+transform-rotate(360deg);
+}
+
+
+.rotate:hover {
+
+width: 250px;
+transform: translate(250px, 180px);
+
+
+}
